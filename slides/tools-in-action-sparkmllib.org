@@ -1,0 +1,41 @@
+#+TITLE:     Spark MLlib in Action
+#+AUTHOR:    Géraud Dugé de Bernonville
+#+EMAIL:     geraud.dugedebernonville@zenika.com
+#+DATE:      16/05/2017
+
+* Introduction
+
+* Mon vol va-t-il avoir du retard ?
+
+* Fouille de données
+
+* Premier modèle
+
+* Pipeline ML
+
+* Tuning des hyper-paramètres
+
+* API
+
+* Questions
+
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  fr
+#+OPTIONS:   H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME:
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+#+BEAMER_FRAME_LEVEL: 2
+#+LaTeX_CLASS_OPTIONS: [t]
+#+latex_header: \mode<beamer>{\usetheme{CambridgeUS}}
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize}
+#+LATEX_HEADER: \setbeamertemplate{navigation symbols}{}
+#+BEAMER_HEADER: \logo{\includegraphics[height=0.7cm]{images/logo-zenika.png}}
