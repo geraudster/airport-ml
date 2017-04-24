@@ -1,0 +1,11 @@
+* Commands
+
+** Launch Jupyter
+
+#+begin_src bash
+docker run -it -v "$PWD:/home/jovyan/work" -p 8888:8888 jupyter/all-spark-notebook
+
+Windows:
+docker run -it -v "%CD%:/home/jovyan/work" -v d:\data\airport:/data -p 8888:8888 jupyter/all-spark-notebook
+#+end_src
+

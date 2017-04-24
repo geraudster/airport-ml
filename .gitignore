@@ -4,3 +4,4 @@
 *.tex
 .idea
 target
+.ipynb_checkpoints/
