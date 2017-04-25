@@ -9,3 +9,7 @@ Windows:
 docker run -it -v "%CD%:/home/jovyan/work" -v d:\data\airport:/data -p 8888:8888 jupyter/all-spark-notebook
 #+end_src
 
+* Links
+
+- http://www.datasciencecentral.com/profiles/blogs/predicting-flights-delay-using-supervised-learning
+
