@@ -1,0 +1,15 @@
+# docker run -i -v "$PWD:/home/jovyan/work" -v "$HOME/data:/data" -p 8888:8888 jupyter/all-spark-notebook
+version: "3"
+services:
+  jupyter:
+    image: jupyter/all-spark-notebook
+    ports:
+     - "8888:8888"
+     - "4040:4040"
+
+    volumes:
+     - "$PWD:/home/jovyan/work"
+     - "$HOME/data:/data"
+     - "$PWD/.plotly:/home/jovyan/.plotly"
+     - "$HOME/.plotly/.credentials:/home/jovyan/.plotly/.credentials"
+
