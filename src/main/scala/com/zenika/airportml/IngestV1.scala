@@ -21,7 +21,10 @@ object IngestV1 extends App {
       try {
         Seq(Flight(line.split(",")))
       } catch {
-        case e: Throwable => Seq.empty
+        case e: Throwable => {
+          println(e)
+          Seq.empty
+        }
       }
     })
 
