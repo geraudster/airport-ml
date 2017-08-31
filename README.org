@@ -10,10 +10,10 @@ docker run -it -v "$PWD:/home/jovyan/work" \
                -p 8888:8888 jupyter/all-spark-notebook
 
 Windows:
-docker run -it -v "%CD%:/home/jovyan/work" \
-               -v "%CD%\.local:/home/jovyan/.local" \
-               -v "%CD%\.plotly:/home/jovyan/.plotly" \
-               -v d:\data\airport:/data \
+docker run -it -v "%CD%:/home/jovyan/work" ^
+               -v "%CD%\.local:/home/jovyan/.local" ^
+               -v "%CD%\.plotly:/home/jovyan/.plotly" ^
+               -v d:\data\airport:/data ^
                -p 8888:8888 jupyter/all-spark-notebook
 #+end_src
 
